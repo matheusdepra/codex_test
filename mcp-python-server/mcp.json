@@ -1,0 +1,6 @@
+{
+  "name": "mcp-python-server",
+  "description": "Sample MCP server exposing filesystem and command tools",
+  "version": "0.1.0",
+  "python_entrypoint": "python -m src.server"
+}
