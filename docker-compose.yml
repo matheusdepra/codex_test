@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  dbt:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["dbt", "build", "--profiles-dir", "profiles"]
